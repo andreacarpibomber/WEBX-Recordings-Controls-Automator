@@ -1,7 +1,9 @@
 /*
-	
-	Aurthor: Andrea Carpi (https://www.andreacarpi.it)
-	v: 2.0
+
+// Copyright: © 2020 Andrea Carpi (https://www.andreacarpi.it)
+// Version: 2.0
+// This file is licensed under the MIT License.
+// License text available at https://opensource.org/licenses/MIT
 	
 */
 var debug = false;

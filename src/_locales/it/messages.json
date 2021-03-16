@@ -1,0 +1,14 @@
+{
+	"appName": {
+		"message": "Webex Automator",
+		"description": "The title of the application, displayed in the web store."
+	},
+	"appDesc": {
+		"message": "Webex Automator allows you to use your keyboard inputs to pause/play your Webex Meetings recording, forward 10 seconds or backward 10 seconds using arrows.",
+		"description": "The description of the application, displayed in the web store."
+	},
+	"defaultTitle": {
+		"message": "Webex Automator Extension",
+		"description": "The description of the application, displayed in the web store."
+	}
+}

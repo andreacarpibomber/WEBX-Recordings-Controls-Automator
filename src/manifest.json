@@ -1,0 +1,49 @@
+{
+	"manifest_version": 2,
+	"name": "WEBX Recordings Controls Automator",
+	"description":"Use your keyboard inputs to pause/play your meeting recording, forward 10 seconds or backward 10 seconds using arrows.",
+	"version": "2.1",
+	"content_scripts": [
+		{
+			"matches":[
+				"*://*.webex.com/*"
+			],
+			"js":[
+				"jquery.min.js",
+				"jquery-ui.custom.min.js",
+				"bililiteRange.js",
+				"jquery.simulate.js",
+				"jquery.simulate.ext.js",
+				"jquery.simulate.drag-n-drop.js",
+				"raphael-min.js",
+				"content.js"
+			]
+		}
+	],
+	"default_locale": "it",
+	"homepage_url": "https://www.andreacarpi.it/",
+	"sandbox": {
+		"pages": [
+		      "https://www.andreacarpi.it"
+		],
+		"content_security_policy":  "sandbox allow-scripts; script-src 'self'"
+		 
+	},
+	"browser_action": {
+		"default_title": "__MSG_defaultTitle__",
+		"default_icon": {
+			"16": "assets/images/icon16.png",         
+            "24": "assets/images/icon24.png",         
+            "32": "assets/images/icon32.png",
+            "48": "assets/images/icon48.png",
+			"128": "assets/images/icon128.png" 
+		}
+    },
+    "icons": { 
+	    "16": "assets/images/icon16.png",
+	    "24": "assets/images/icon24.png",           
+        "32": "assets/images/icon32.png",
+        "48": "assets/images/icon48.png",
+        "128": "assets/images/icon128.png" 
+    }
+}

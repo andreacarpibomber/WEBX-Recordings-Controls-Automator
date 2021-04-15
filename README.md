@@ -9,6 +9,22 @@ The latest version of this extension is available for freen on the Chome Extensi
 ## Safari
 The .dmg of the latest version is available at the link https://www.andreacarpi.it/webx-recordings-controls/safari-extension/WEBX%20Recordings%20Controls%20Automator.dmg
 
+### Downloading steps:
+#### 1) Download and open the .dmg file
+
+#### 2) If this message shows up, go to Settings > Safety and Privacy and then click "Open anyway"
+
+#### 3) Clik again on the extension file
+
+
+#### 4) Open Safari and press CMG+, or open the preferences
+
+
+#### 5) Browse to extensions and enable WEBX-Recordings-Controls-Automator
+
 
 ## Firefox
 Still under development
+
+
+

@@ -7,7 +7,7 @@ The latest version of this extension is available for freen on the Chome Extensi
 
 
 ## Safari
-The .dmg of the latest version is available at the link https://www.andreacarpi.it/webx-recordings-controls/safari-extension/WEBX%20Recordings%20Controls%20Automator.dmg
+The .dmg of the latest version is available at the link https://www.andreacarpi.it/webx-recordings-controls/safari-extension/WEBX%20Recordings%20Controls%20Automator-v1.3.1.dmg
 
 ### Downloading steps:
 #### 1) Download and open the .dmg file

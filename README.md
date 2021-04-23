@@ -12,7 +12,7 @@ The .dmg of the latest version is available at the link https://www.andreacarpi.
 ### Downloading steps:
 #### 1) Download and open the .dmg file
 
-#### 2) If this message shows up, go to Settings > Safety and Privacy and then click "Open anyway"
+#### 2) If a warn message shows up, go to Settings > Safety and Privacy and then click "Open anyway"
 
 #### 3) Clik again on the extension file
 

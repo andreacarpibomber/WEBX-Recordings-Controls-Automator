@@ -3,7 +3,7 @@ Use your keyboard inputs to pause/play your meeting recording, forward 10 second
 
 
 ## Google
-The latest version of this extension is available for freen on the Chome Extension Store at this link https://chrome.google.com/webstore/detail/webx-recordings-controls/lgkgpifjihgnoknjpnnldhhenefjpadi?hl=it&authuser=0
+The latest version of this extension is available for free on the Chome Extension Store at this link https://chrome.google.com/webstore/detail/webx-recordings-controls/lgkgpifjihgnoknjpnnldhhenefjpadi?hl=it&authuser=0
 
 
 ## Safari

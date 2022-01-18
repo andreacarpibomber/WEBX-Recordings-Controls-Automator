@@ -63,6 +63,27 @@ if (window.location.href.includes(".webex.com")) {
 		} catch (e) { console.warn("1", e); }
 	}
 	function updateSpeed(speed = "FASTER") {
+		if (document.getElementsByClassName("vjs-playback-rate").length > 0) {
+			let sppedsBtns = document.getElementsByClassName("vjs-menu-item");
+			let cspeedi = 0;
+			for (let i = 0; i < sppedsBtns.length; i++) {
+				if (sppedsBtns[i].classList.value.includes("vjs-selected")) {
+					cspeedi = i;
+				}
+			}
+			
+			if (speed !== "FASTER") {
+				cspeedi++;
+				if (cspeedi > sppedsBtns.length -1) { cspeedi = sppedsBtns.length -1; }
+			} else {
+				cspeedi--;
+				if (cspeedi < 0) { cspeedi = 0; }
+			}
+			sppedsBtns[cspeedi].click();
+			
+			return true;
+		}
+		
 		try {
 			try { $("#screen").simulate("drag-n-drop", {dx: 1}); } catch (e) { if (debug) { console.warn(e); }};
 	
